@@ -1,0 +1,91 @@
+<html>
+	<head>
+	<meta charset= 'utf-8' />
+	<STYLE>
+	.test{position: absolute; top: 30px; left: 450px; color: white; font-size:47}
+	</STYLE>
+	
+	</head>
+	<body>
+	<DIV class=test>
+	<h3>Créons à votre image</h3>
+	</DIV>
+		<link rel='stylesheet'  media='screen'  type='text/css'  href='test.css' />
+		<p class='flotte'>
+			<img src='images/gif/logotest2.gif' height='200px' width='250px'/>
+		</p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		 <div id="monmenu">
+			<ul class='niveau1'>
+					<li><a href='presentation/presentation.html'>
+						<img src="images/gif/presentation.gif" onmouseover="this.src='images/gif/presentation2.gif'" onmouseout="this.src='images/gif/presentation.gif'" height='150px' width='150px' border='0'/>
+					</a>
+					</li>
+					<li><a href='http://www.google.com'>
+						<img src="images/gif/savoirfaire3.gif" onmouseover="this.src='images/gif/savoirfaire4.gif'" onmouseout="this.src='images/gif/savoirfaire3.gif'" height='150px' width='150px'/>
+						<ul class='niveau2'>
+							<li><a href='savoirFaire/cartesSF.php'>Cartes de visites</a></li>
+							<li><a href='savoirFaire/flyersSF.php'>Flyers</a></li>
+								<ul class='niveau3'>
+									<li><a href=''>A4</a></li>
+									<li><a href=''>A5</a></li>
+									<li><a href=''>A6</a></li>
+								</ul>
+							<li><a href='savoirFaire/logoSF.php'>Logos</a></li>
+							<li><a href=''>Etiquette</a></li>
+							<li><a href=''>Charte graphique</a></li>
+						</ul></a>
+					</li>
+					<li><a href='http://www.google.com'>
+						<img src="images/gif/realisation3.gif" onmouseover="this.src='images/gif/realisation4.gif'" onmouseout="this.src='images/gif/realisation3.gif'" height='150px' width='150px'/>
+							<ul class='niveau2'>
+							<li><a href='realisation/cartesRT.php'>Cartes de visites</a></li>
+								<li><a href='realisation/flyersRT.php'>Flyers</a></li>
+									<ul class="niveau3">'
+										<li><a href=''>A4</a></li>
+										<li><a href=''>A5</a></li>
+										<li><a href=''>A6</a></li>
+									</ul>
+								<li><a href='realisation/logoRT.php'>Logos</a></li>
+								<li><a href=''>Etiquette</a></li>
+							</ul>
+						</a>
+					</li>
+					
+					<li><a href='contacter/formulaireContact.html'>
+						<img src="images/gif/contact7.gif" onmouseover="this.src='images/gif/contact8.gif'" onmouseout="this.src='images/gif/contact7.gif'" height='150px' width='150px'/>
+							<ul class='niveau2'>
+								<li><a href='contacter/formulaireContact.html'>Formulaire contact</a></li>
+								<li><a href=''>Situer l'entreprise</a></li>
+							</ul>
+						</a>
+					</li>
+					<li><a href='references/referencesR.php'>
+						<img src="images/gif/references3.gif" onmouseover="this.src='images/gif/references4.gif'" onmouseout="this.src='images/gif/references3.gif'" height='150px' width='150px'/>
+							<ul class='niveau2'>
+								<li><a href='realisation/flyersRT.php'>Flyers</a></li>
+								<li><a href='realisation/cartesRT.php'>Cartes de visites</a></li>
+								<li><a href='realisation/logoRT.php'>Logo</a></li>
+							</ul>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		
+
+		
+		<!--logo avec les liens des pages-->
+					<a href='http://www.google.com/' onclick='window.open(this.href); return false;' title='logo fb'><img src='images/logofb.png' width='30' height='30' border='0' alt='logo fb'></a>
+					<a href='http://www.google.com/' onclick='window.open(this.href); return false;' title='logo twitter'><img src='images/twitter.png' width='30' height='30' border='0' alt='logo twitter'></a>
+					<a href='http://www.google.com/' onclick='window.open(this.href); return false;' title='logo linkedin'><img src='images/linkedin.png' width='30' height='30' border='0' alt='logo linkedin'></a><br/>
+					<font color='#ffffff' size='2'>Rejoignez-nous sur les réseaux sociaux</font>
+					
+					<!--localisation de l'entreprise-->
+					<font color='ffffff' size='2'>10-14 Rue Jean Perrin<br/>
+						17000 LA ROCHELLE<br/>
+						Tel:<br/>
+						Adresse mail:<br/>
+						Siret:
+					</font>	
+	</body>
+</html>

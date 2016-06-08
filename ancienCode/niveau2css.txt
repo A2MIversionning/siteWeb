@@ -1,0 +1,130 @@
+html, body { 
+margin: 0; 
+padding: 0; 
+height: 100%; 
+width: 100%;
+background-color:black; 
+} 
+#arriere { 
+ /*l'image occupe toute la place du body */ 
+width : 100%; 
+height: 100%; 
+}
+.flotte {
+float:left;
+}
+/*.nav {
+    list-style: none none;
+    margin: 0;
+    padding: 60;
+    line-height:0;
+}
+.nav a {
+    display: block;
+    padding:.5em;
+    text-decoration: none;
+}
+.nav a:focus,
+
+.nav-item {
+    float: left; /* Pour que les liens s’affichent horizontalement */
+   /* position: relative; /* Crée un contexte de positionnement pour les sous-listes */
+/*}
+.sub-nav {
+    display: none; /* Masque la sous-liste */
+   /* position: absolute; /* Evite que la dimension du conteneur ne change quand la sous-liste est affichée */
+  /*  left: 0; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur */
+  /*  top: 5em; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur, on le positionne explicitement en bas du conteneur */
+  /*  white-space: nowrap; /* Pour que le texte ne revienne pas à la ligne */
+/*}
+
+.test {
+    display: none; /* Masque la sous-liste */
+   /* position: absolute; /* Evite que la dimension du conteneur ne change quand la sous-liste est affichée */
+  /*  white-space: nowrap; /* Pour que le texte ne revienne pas à la ligne */
+	
+/*}
+/*.nav-item:hover .sub-nav {
+    display: block; /* Affiche cette sous-liste au survol de son conteneur */
+
+/*}
+.nav-item:hover .test {
+    display: block; /* Affiche cette sous-liste au survol de son conteneur */
+
+/*}*/
+
+
+/*on definit la taille de la div du menu ainsi que la taille de parties du menu.*/ 
+div#menu { 
+	width: 100px; 
+	float: left; /* Pour que les liens s’affichent horizontalement */
+	position: absolute; /* Crée un contexte de positionnement pour les sous-listes */
+ } 
+
+div#menu ul { 
+	padding: 0; 
+	width: 100px; 
+	border:1px solid; 
+	margin:0px; 
+	left: 0; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur */
+	top: 5em; /* FIX IE7 : pour que le sous-menu s’aligne avec son conteneur, on le positionne explicitement en bas du conteneur */
+} 
+
+/*On positionne les elements du menu */ 
+div#menu ul li { 
+    position:relative; 
+	display: inherit;
+} 
+
+#menu li {
+	margin:auto;
+	padding:0;
+	display:inline-block;
+ }
+
+div#menu li a { 
+               
+	text-decoration: none; /* plus de soulignement pour les liens */ 
+	padding: 4px 0 4px 8px; 
+	display:block; 
+
+	width:84px; 	   
+}
+ 
+div#menu ul ul { 
+	display:block;
+	position: absolute; 
+	top: 0; 
+	left: 100px; 
+	border-left:8px solid #BBB;
+	
+} 
+
+#menu ul li:hover ul {
+ position: relative;
+ display: block; 
+
+ }
+#menu li:hover ul li {
+ float:none;
+ display:block;
+}
+
+ }
+ #menu li ul {
+ position:absolute;
+ 
+ }
+ #menu ul li ul {
+ display:none;
+ }
+
+ #menu {
+ height:50px;
+ 
+ }
+/*Lors du survol ,avec la souris, les sousmenu apparaissent grace a display: block */ 
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2, 
+div#menu ul.niveau2 li.sousmenu:hover ul.niveau3 { 
+display:block; }
+ 
